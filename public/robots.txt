@@ -1,0 +1,3 @@
+# A working tool for the sales team, not a public website.
+User-agent: *
+Disallow: /

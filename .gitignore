@@ -1,7 +1,19 @@
 .DS_Store
 .firebase/
+.cache/
+.work/
 node_modules/
 *.log
-source/build/
-source/test/e2e*/
-source/test/out-*/
+
+# generated
+build/
+vendor/
+public/vendor/
+
+# test output
+test/*/
+!test/img/
+test/*.png
+test/*.pdf
+test/*.html
+test/*.json

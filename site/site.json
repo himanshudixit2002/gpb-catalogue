@@ -1,0 +1,10 @@
+{
+  "name": "GPB Catalogue",
+  "short_name": "GPB Catalogue",
+  "description": "Photograph products, straighten and cut them out, and make catalogue PDFs to share on WhatsApp.",
+  "url": "https://gpb-catalogue.web.app/",
+  "repo": "https://github.com/himanshudixit2002/gpb-catalogue",
+  "theme_color": "#1D2340",
+  "background_color": "#1D2340",
+  "lang": "en-IN"
+}

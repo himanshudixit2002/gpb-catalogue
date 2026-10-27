@@ -1,0 +1,18 @@
+{
+  "name": "gpb-catalogue",
+  "version": "2.1.0",
+  "private": true,
+  "description": "Photograph products, straighten and cut them out, and make catalogue PDFs to share on WhatsApp.",
+  "scripts": {
+    "vendor": "node scripts/vendor.mjs",
+    "build": "python3 build.py",
+    "preview": "./deploy.sh preview",
+    "deploy": "./deploy.sh",
+    "icons": "node scripts/make-icons.js"
+  },
+  "devDependencies": {
+    "@imgly/background-removal": "1.7.0",
+    "esbuild": "0.28.2",
+    "onnxruntime-web": "1.21.0"
+  }
+}
